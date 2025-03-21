@@ -1,7 +1,4 @@
 # Operation Litigate
-
-
-
 Comparative Analysis of Large Language Models on Legal Examination Tasks
 
 Anthony Borum
@@ -86,57 +83,57 @@ Nick Cornelius. (2024, October 8). Fine-Tuning ChatGPT made EASY (No Coding Requ
 IBM Technologies (2025, January 1). What is a Context Window? Unlocking LLM Secrets [Video]. YouTube. https://www.youtube.com/watch?v=-QVoIxEpFkM
 
 Table 1. Exam Scores
-Trials	      Model 1 (No Prompt)	    Model 2 (Prompt Only)	    Model 3 (Prompt + SFT)
+Trials	           Model 1 (No Prompt)	      Model 2 (Prompt Only)	    Model 3 (Prompt + SFT)
 Trial # 1	          88/100	                 90/100	                   79/100
-Trial # 2	          90/100	                 88.4/100	                 89/100
+Trial # 2	          90/100	                 88.4/100	                   89/100
 Trial # 3	          91/100	                 87/100	                   85/100
 Trial # 4	          88/100	                 92/100	                   88/100
 Trial # 5	          92/100	                 90/100	                   80/100
-Trial # 6	          87.5/100	               82/100	                   80/100
-Trial # 7	          91/100	                 88.2/100	                 86/100
+Trial # 6	          87.5/100	                 82/100	                   80/100
+Trial # 7	          91/100	                 88.2/100	                   86/100
 Trial # 8	          87/100	                 88/100	                   86/100
-Trial # 9	          88.4/100	               85/100	                   85/100
-Trial # 10	        90.6/100	               88/100	                   88/100
-Average:	          89.35/100	               87.86/100	               84.6/100
+Trial # 9	          88.4/100	                 85/100	                   85/100
+Trial # 10	          90.6/100	                 88/100	                   88/100
+Average:	          89.35/100	                 87.86/100	                   84.6/100
 
 
 Table 2. Model #1 (no prompt) analysis
-       Model	            BAR Question	   Response Time	   Input Tokens Used     Output Tokens Used
-Model #1 (No Prompt)	       1.1	         "12,527ms"	        450 tokens	            888 tokens
-Model #1 (No Prompt)	       1.2	         "6,278ms"	        435 tokens	            537 tokens
-Model #1 (No Prompt)	       2.1	         "9,304ms"	        512 tokens	            704 tokens
-Model #1 (No Prompt)	       2.2	         "12,787ms"         517 tokens	            629 tokens
-Model #1 (No Prompt)	       3	           "10,560ms"	        238 tokens	            668 tokens
-Model #1 (No Prompt)	       4.1	         "12,190ms"         405 tokens	            771 tokens
-Model #1 (No Prompt)	       4.2	         "8,281ms"	        360 tokens	            445 tokens
-Model #1 (No Prompt)	       5.1	         "18,600ms"	        370 tokens	            715 tokens
-Model #1 (No Prompt)	       5.2	         "17,590ms"	        371 tokens	            658 tokens
-Average	null	                             "12,013ms"	        406 tokens	            668 tokens
+       Model	            BAR Question	 Response Time      Input Tokens Used      Output Tokens Used
+Model #1 (No Prompt)	       1.1	         "12,527ms"	         450 tokens	            888 tokens
+Model #1 (No Prompt)	       1.2	         "6,278ms"	         435 tokens	            537 tokens
+Model #1 (No Prompt)	       2.1	         "9,304ms"	         512 tokens	            704 tokens
+Model #1 (No Prompt)	       2.2	         "12,787ms"           517 tokens	            629 tokens
+Model #1 (No Prompt)	        3	         "10,560ms"	         238 tokens	            668 tokens
+Model #1 (No Prompt)	       4.1	         "12,190ms"           405 tokens	            771 tokens
+Model #1 (No Prompt)	       4.2	         "8,281ms"	         360 tokens	            445 tokens
+Model #1 (No Prompt)	       5.1	         "18,600ms"	         370 tokens	            715 tokens
+Model #1 (No Prompt)	       5.2	         "17,590ms"	         371 tokens	            658 tokens
+Average	              null	         "12,013ms"	         406 tokens	            668 tokens
 
 
 Table 3. Model #2 (prompt only) analysis
-        Model	             BAR Question	    Response Time	   Input Tokens Used	    Output Tokens Used
-Model #2 (Prompt Only)	      1.1	            "21,984ms"	    "31,000 tokens"	          801 tokens
-Model #2 (Prompt Only)	      1.2     	      "15,560ms"	    "30,900 tokens"	          638 tokens
-Model #2 (Prompt Only)	      2.1	            "21,236ms"	    "31,000 tokens"	          875 tokens
-Model #2 (Prompt Only)	      2.2	            "17,130ms"	    "31,000 tokens"	          846 tokens
-Model #2 (Prompt Only)	      3	              "17,028ms"	    "30,700 tokens"	          723 tokens
-Model #2 (Prompt Only)	      4.1	            "18,252ms"	    "30,900 tokens"	          889 tokens
-Model #2 (Prompt Only)	      4.2	            "12,812ms"	    "30,800 tokens"	          556 tokens
-Model #2 (Prompt Only)	      5.1	            "16,813ms"	    "30,900 tokens"	          763 tokens
-Model #2 (Prompt Only)	      5.2	            "21,086ms"	    "30,900 tokens"	          784 tokens
-Average	                     null	            "17,989ms"	    "30,900 tokens"	          763 tokens
+       Model	                BAR Question     Response Time	   Input Tokens Used	     Output Tokens Used
+Model #2 (Prompt Only)	      1.1	       "21,984ms"	    "31,000 tokens"	         801 tokens
+Model #2 (Prompt Only)	      1.2            "15,560ms"	    "30,900 tokens"	         638 tokens
+Model #2 (Prompt Only)	      2.1	       "21,236ms"	    "31,000 tokens"	         875 tokens
+Model #2 (Prompt Only)	      2.2	       "17,130ms"	    "31,000 tokens"	         846 tokens
+Model #2 (Prompt Only)	       3             "17,028ms"	    "30,700 tokens"	         723 tokens
+Model #2 (Prompt Only)	      4.1	       "18,252ms"	    "30,900 tokens"	         889 tokens
+Model #2 (Prompt Only)	      4.2	       "12,812ms"	    "30,800 tokens"	         556 tokens
+Model #2 (Prompt Only)	      5.1	       "16,813ms"	    "30,900 tokens"	         763 tokens
+Model #2 (Prompt Only)	      5.2	       "21,086ms"	    "30,900 tokens"	         784 tokens
+Average	                    null	       "17,989ms"	    "30,900 tokens"	         763 tokens
 
 
 Table 4. Model #3 (SFT + prompt) analysis
-          Model             BAR Question	  Response Time	   Input Tokens Used	    Output Tokens Used
-Model #3 (Prompt + SFT)	      1.1	           "8,506ms"	        "474 tokens"	          742 tokens
-Model #3 (Prompt + SFT)	      1.2	           "7,343ms"	        "459 tokens"	          393 tokens
-Model #3 (Prompt + SFT)	      2.1	           "9,074ms"	        "519 tokens"	          591 tokens
-Model #3 (Prompt + SFT)	      2.2	           "12,633ms"	        "524 tokens"	          617 tokens
-Model #3 (Prompt + SFT)	       3	           "5,963ms"	        "254 tokens"	          372 tokens
-Model #3 (Prompt + SFT)	      4.1	           "6,769ms"	        "421 tokens"	          414 tokens
-Model #3 (Prompt + SFT)	      4.2	           "7,773ms"	        "376 tokens"	          263 tokens
-Model #3 (Prompt + SFT)       5.1	           "7,868ms"	        "386 tokens"	          301 tokens
-Model #3 (Prompt + SFT)	      5.2	           "9,139ms"	        "387 tokens"	          366 tokens
-Average	                     null	           "8,341ms"	        "422 tokens"	          451 tokens
+       Model                  BAR Question        Response Time       Input Tokens Used	   Output Tokens Used
+Model #3 (Prompt + SFT)	      1.1	          "8,506ms"	         "474 tokens"	       742 tokens
+Model #3 (Prompt + SFT)	      1.2	          "7,343ms"	         "459 tokens"	       393 tokens
+Model #3 (Prompt + SFT)	      2.1	          "9,074ms"	         "519 tokens"	       591 tokens
+Model #3 (Prompt + SFT)	      2.2	          "12,633ms"	         "524 tokens"	       617 tokens
+Model #3 (Prompt + SFT)	       3	          "5,963ms"	         "254 tokens"	       372 tokens
+Model #3 (Prompt + SFT)	      4.1	          "6,769ms"	         "421 tokens"	       414 tokens
+Model #3 (Prompt + SFT)	      4.2	          "7,773ms"	         "376 tokens"	       263 tokens
+Model #3 (Prompt + SFT)           5.1	          "7,868ms"	         "386 tokens"	       301 tokens
+Model #3 (Prompt + SFT)	      5.2	          "9,139ms"	         "387 tokens"	       366 tokens
+Average	                    null	          "8,341ms"	         "422 tokens"	       451 tokens
