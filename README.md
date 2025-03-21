@@ -79,7 +79,9 @@ computational efficiency. Future research should focus on refining prompting and
 techniques to better focus the capabilities of large language models on complex tasks like the BAR Exam.
 
 References
+
 Nick Cornelius. (2024, October 8). Fine-Tuning ChatGPT made EASY (No Coding Required) [Video]. YouTube. https://www.youtube.com/watch?v=FrshQV0PRq4
+
 IBM Technologies (2025, January 1). What is a Context Window? Unlocking LLM Secrets [Video]. YouTube. https://www.youtube.com/watch?v=-QVoIxEpFkM
 
 Table 1. Exam Scores
